@@ -10,7 +10,7 @@ const Card = ({ heading, images }) => {
             key={idx}
             src={image}
             alt={`image-${idx}`}
-            className="w-full h-auto p-2"
+            className="w-full object-cover h-auto p-2"
           />
         ))}
       </div>
