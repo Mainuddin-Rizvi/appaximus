@@ -3,12 +3,12 @@ import React from "react";
 
 const Header = () => (
   <header
-    className="h-screen w-full bg-cover bg-center"
+    className="h-screen w-full bg-cover bg-center md:h-[75vh] sm:h-[50vh] xs:h-[50vh]"
     style={{
-      backgroundImage: "url('https://dummyimage.com/1600x900/000/fff')",
+      backgroundImage: `url(${require("../assets/header-background.jpeg")})`,
     }}
   >
-    <h1 className="text-white text-center text-5xl pt-40">
+    <h1 className="text-white text-center text-5xl pt-40 sm:pt-20 sm:text-3xl">
       Welcome to Our IT Services
     </h1>
   </header>

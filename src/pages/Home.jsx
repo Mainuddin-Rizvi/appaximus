@@ -5,7 +5,6 @@ import Technology from "./Technology";
 import Testimonials from "../components/Testimonials";
 import Header from "../components/Header";
 import Clients from "../components/Clients";
-
 function Home() {
   return (
     <div className="home-page" id="home">
