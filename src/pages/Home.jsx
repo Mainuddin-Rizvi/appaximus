@@ -15,8 +15,8 @@ function Home() {
       <div id="technology">
         <Technology />
       </div>
-      <Testimonials />
       <Clients />
+      <Testimonials />
     </div>
   );
 }
